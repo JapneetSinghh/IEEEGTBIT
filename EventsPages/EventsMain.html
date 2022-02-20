@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
+
+
+  <meta charset="UTF-8">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/e22d7ebee8.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/slider.css">
+  <link rel="stylesheet" href="../css/card2.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/lightbox.min.css">
+  
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="../css/mobile.css">
+  <link rel="stylesheet" href="../css/toggle-btn.css">
+
+  <title>IEEE GTBIT | Home</title>
+
+ 
+</head>
+
+<body>
+  <div class="top-header">
+    <a href="/TeamPage/team.html">Our Team</a>
+     <a href="/Achievements.html">Achievements</a>
+  </div>
+  <!-- Navigation Bar For Phone -->
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a style="padding: 0; text-align: left;" href="#home" class="active"><img class="logopng"
+        style="width: 100px;padding: 0;" src="../img/iee-logo.png" alt=""></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About Us</a></li>
+
+      <li><a href="/EventsPages/EventsMain.html">Events</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join" target="blank">Join
+          IEEE</a></li>
+
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+    <a icon-ham href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars "></i>
+    </a>
+  </div>
+  <script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }</script>
+
+  <!-- Navigation bar for computer -->
+  <header class="top">
+    <div class="navbar top" id="navbar">
+      <!-- Navbar logo and name -->
+      <div class="logo">
+        <img src="../img/iee-logo.png" alt="">
+        <h3 class="logotext" id="logotext">IEEE GTBIT</h3>
+      </div>
+
+      <!-- Navbar Links -->
+      <nav>
+        <ul class="navbar-ul">
+          <li><a  href="/index.html"> Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+
+          <!-- EVENTS -->
+          <li  class="dropdown list-events">
+            <a href="/EventsPages/EventsMain.html" class="dropbtn"> Events<i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-content">
+              <div class="flex-items ">
+                <div>
+                  <p>IEEE GTBIT 2021-22</p>
+                  <a href="/EventsPages/Event_01_Croudhacks.html">CrowdHacks</a>
+                  <a href="/EventsPages/Event_02_Arduiknow.html">ArduiKnow</a>
+                  <a href="/EventsPages/Event_03_Pcb_Workshop.html">PCB Workshop</a>
+                  <a href="/EventsPages/Event_04_Ieee_extreme.html">IEEExtreme</a>
+
+                </div>
+
+                <div>
+                  <p>WIE IEEE GTBIT</p>
+                  <a href="/EventsPages/Event_05_DevDays2022.html">DevDays 2022</a>
+                  <a href="/EventsPages/Event_06_BasicsOfCyberSecurity.html">Basics of Cybersecurity</a>
+                  <a href="/EventsPages/Event_07_Getting_started_with_wordpress.html">Getting started with Wordpress</a>
+                </div>
+
+                <div>
+                  <p>CS Chapter IEEE GTBIT</p>
+
+                  <a href="/EventsPages/Event_08_MustHaveSkills.html">Must-Have Skills for Placements</a>
+                  <a href="/EventsPages/Event_09_BasicsOfPython.html">Basics of Python</a>
+                  <a href="/EventsPages/Event_10_Roadmap_to_webdev.html">Roadmap to Web Development</a>
+
+                </div>
+
+              </div>
+
+            </div>
+            <!-- GALLERY -->
+          <li class="dropdown list-gallery">
+            <a href="/gallery.html" class="dropbtn">Gallery</a>
+            <!-- <div class="dropdown-content">
+              <div class="flex-items ">
+                <div>
+                  <a href="gallery.html">All Events</a>
+                  <a href="gallery.html">Our Execom</a>
+                </div>
+
+
+
+              </div>
+
+            </div> -->
+            <!-- <li><a href="./EventsPages/EventsMain.html">Events</a></li> -->
+          <li><a href="/contact.html">Contact Us</a></li>
+          <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+              target="blank">Join IEEE</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <ul class="sidebar">
+      <li class="sb-item facebook">
+        <a href="https://www.facebook.com/ieeegtbit/" class="sb-link">
+          <i class="fab fa-facebook-f" style="background-color: #4267B2;"></i>
+          <span class="sb-title">Facebook</span>
+        </a>
+      </li>
+  
+      <li class="sb-item email">
+        <a href="" class="sb-link">
+          <i class="far fa-envelope" style="background-color: #DB4437;"></i>
+          <span class="sb-title">Email</span>
+        </a>
+      </li>
+  
+      <li class="sb-item insta">
+        <a href="https://instagram.com/ieeegtbit?utm_medium=copy_link" class="sb-link">
+          <i class="fab fa-instagram"
+            style="background: linear-gradient(45deg,#405DE6,#5851DB,#833ab4,#c13584,#e1309c,#fd1d1d);"></i>
+          <span class="sb-title">Instagram</span>
+        </a>
+      </li>
+  
+      <li class="sb-item twitter">
+        <a href="https://twitter.com/IEEEGTBIT?t=xX2-rhwhPJLh3oa3kpPnOw&s=08" class="sb-link">
+          <i class="fab fa-twitter" style="background-color:#00acee;"></i>
+          <span class="sb-title">Twitter</span>
+        </a>
+      </li>
+  
+  
+      <li class="sb-item whatsapp">
+        <a href="" class="sb-link">
+          <i class="fab fa-whatsapp" style="background-color: #25D366;"></i>
+          <span class="sb-title">WhatsApp</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  
+  <!-- Showcase -->
+
+  <section class="showcase showcase-5">
+
+ <div class="content">
+    <!-- <h1>IEEE GTBIT</h1>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    
+    <br>
+    <a class="btn-1" href="#about">About Us</a> &nbsp; <a class="btn-2" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join" target="blank">Join IEEE</a> -->
+ </div>
+</section>
+<!-- HEADING -->
+<div class="section-header-achievements">
+  <h2>Our Events</h2>
+</div>
+<!-- Content -->
+
+<!-- IEEE GTBIT EVENTS -->
+<section id="about" data-aos="fade-up" data-aos-duration="1300">
+  <div>
+    <div class="about">
+
+
+      <div class="about-image">
+        <img src="../img/iee-logo.png" alt="">
+      </div>
+      <div class="about-content">
+        <h1 class="heading1">IEEE GTBIT Events</h1>
+        <p>IEEE GTBIT SB(Student Branch) is a committed and ambitious subunit of IEEE. IEEE GTBIT SB helps students to
+          sharpen skills by organizing events, workshops, etc. We also make students aware of the offers, events,
+          facilities provided to them via IEEE. Our student branch has helped students by extensive methods throughout
+          all these years by honing their technical skills, making them better engineers and overall professionals by
+          increasing their interest in engineering with resources. We also successfully managed to improve their
+          social, marketing, and communication skills. Our esteemed branch was first established in 2008 and is
+          flourishing ever since. </p>
+
+        <div>
+          <a class="btn-1" href="about.html">Read More</a> &nbsp; <a class="btn-3" href="events.html">Our Events</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EVENT BOXES -->
+<section class="our-events-main container2">
+  <div class="wrapper">
+    <div class="event-nav-cards">
+      <div class="event-nav-card">
+        <div class="f event-nav-card-1">
+          <img src="../img/EVENT_PAGE_BOXES/Box_1_IEEE_Day.jpg" alt="" />
+          <div class="over">Click to Know More</div>
+        </div>
+        <div class="s event-nav-card-2">
+          <img src="../img/EVENT_PAGE_BOXES/Box_2_Arduino.jpg" alt="" />
+          <div class="over">Click to Know More</div>
+        </div>
+        <div class="t event-nav-card-3">
+          <img src="../img/EVENT_PAGE_BOXES/Croudhacks.png" alt="" />
+          <div class="over">Click to Know More</div>
+        </div>
+        <div class="ff event-nav-card-4">
+          <img src="../img/Event pics for gallery/Placement event.jpg" alt="" />
+          <div class="over">Click to Know More</div>
+        </div>
+        <div class="fth event-nav-card-5">
+          <img src="../img/HomePage/showcase2.jpg" alt="" />
+          <div class="over" onclick="window.open('https://instagram.com')">
+            <!-- for opening links onclick-->
+            Click to Know More
+          </div>
+        </div>
+        <div class="sxth event-nav-card-6">
+          <img src="//unsplash.it/1000/1000" alt="" />
+          <div class="over" onclick="window.open('https://youtube.com')">
+            <!-- for opening links onclick-->
+            Click to Know More
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+</section>
+ 
+<!-- ONGOING EVENT -->
+<section class="showcase showcase-3" data-aos="fade-up" data-aos-duration="1300">
+  <div class="showcase3-content">
+
+    <div class="upcoming-event">
+      <div class="event-image">
+        <img src="../img/IEEE Events/DEVdAYS2022.jpeg" alt="">
+      </div>
+      <div>
+        <h3>Ongoing Event</h3>
+        <h1 class="heading1 center">
+          DEVDAYS 2022
+        </h1>
+        <h3>6<SUP>th</SUP> FEB 2022 | 6 PM ONWARDS</h3>
+        <br>
+
+        <p>IEEE WIE GTBIT along with HACK-GTBIT SIG brings to you:
+          <The>A <strong>2 week hands-on workshop</strong> on Python, Machine Learning and Introduction to Deep
+            Learning.The sessions will begin from 6th of February and will be conducted for 2 hours , thrice a week.
+        </p>
+
+        <p>A <strong>48-hours Hackathon</strong> will be organised from 18<sup>th</sup> February 2022 with sponsors
+          like Cells Strat , GeeksForGeeks , Leading Learners , AoPS etc. and opportunities to learn.👨‍💻👨‍💻👨‍💻
+        </p>
+
+        </ul> <br>
+        <a class="btn-1" href="events.html">Checkout More</a>
+      </div>
+    </div>
+  </div>
+  <br>
+
+</section>
+  <!-- Notice board for images -->
+
+  <section class="card-list" id="ourTeam" data-aos="fade-up" data-aos-duration="1300">
+
+    </article>
+    <article class="card-ongoing-event">
+      <div class="image">
+        <img src="../img/Event pics for gallery/IEEE Day/IMG-20211005-WA0043.jpg" alt="" />
+      </div>
+      <div class="ongoing-event-content">
+        <h4>IEEE DAY & IOT Workshop </h4>
+        <p class="ongoing-event-time">October 5<sup>th</sup> -6<sup>th</sup> ,2021 | 3:00 PM</p>
+        <p>IEEE Day is celebrated every year on 5th of October accompanied by series of informative and intriguing events.</p>
+      </div>
+      </div>
+      <div class="ongoing-events-btn">
+        <a class="btn-1" href="">Read More</a>
+      </div>
+      </div>
+    </article>
+
+    <article class="card-ongoing-event">
+      <div class="image">
+        <img src="../img/Event pics for gallery/Crowdhacks/final ss.jpg" alt="" />
+      </div>
+      <div class="ongoing-event-content">
+        <h4>CrowdHacks</h4>
+        <p class="ongoing-event-time">December 4<sup>th</sup> , 2021 | 11 am</p>
+        <p>CrowdHacks , our hackathon saw a footfall of around 1350 students worldwide, sponsored by names like Qantily
+          , Alibaba, NexGen IoT Solutions, Eggheads, Taskade, GeeksForGeeks.
+        </p>
+      </div>
+      </div>
+      <div class="ongoing-events-btn">
+        <a class="btn-1" href="">Read More</a>
+      </div>
+      </div>
+    </article>
+    <article class="card-ongoing-event">
+      <div class="image">
+        <img src="../img/Event pics for gallery/python event.jpg" alt="" />
+      </div>
+      <div class="ongoing-event-content">
+        <h4>Basics of Python</h4>
+        <p class="ongoing-event-time">December 21<sup>th</sup> , 2021 | 3 pm</p>
+        <p>A session conducted by Mr. Rahul Garg on the basics of Python programming</p>
+      </div>
+      </div>
+      <div class="ongoing-events-btn">
+        <a class="btn-1" href="">Read More</a>
+      </div>
+      </div>
+    </article>
+    <article class="card-ongoing-event">
+      <div class="image">
+        <img src="../img/Event pics for gallery/Arduino Workshop/IMG-20210920-WA0034.jpg" alt="" />
+      </div>
+      <div class="ongoing-event-content">
+        <h4>ARDUIKNOW - Arduino Workshop</h4>
+        <p class="ongoing-event-time">September 29<sup>th</sup> , 2021| 10 am</p>
+        <p> IEEE GTBIT SB conducted a 2-day workshop on Arduinos. Over 150 students attended the
+          workshop.
+        </p>
+      </div>
+      </div>
+      <div class="ongoing-events-btn">
+        <a class="btn-1" href="">Read More</a>
+      </div>
+      </div>
+    </article>
+    <article class="card-ongoing-event">
+      <div class="image">
+        <img src="../img/Event pics for gallery/cybersecurity workshop/Screenshot (1267).png" alt="" />
+      </div>
+      <div class="ongoing-event-content">
+        <h4>Cybersecurity Workshop</h4>
+        <p class="ongoing-event-time">February 7<sup>th</sup>, 2022 | 6 PM</p>
+        <p>This event introduced the students to the basics of cybersecurity.</p>
+      </div>
+      </div>
+      <div class="ongoing-events-btn">
+        <a class="btn-1" href="">Read More</a>
+      </div>
+
+
+
+  </section>
+
+ 
+
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="footer">
+      <div class="footer1">
+        <div class="footer1-content">
+          <div>
+            <img src="../img/iee-logo.png" alt="">
+          </div>
+          <div>
+            <h1>IEEE GTBIT</h1>
+          </div>
+        </div>
+        <div>
+          <p>The goal of IEEE GTBIT SB is to transform students into polished working professionals that are
+            industry-tailored. Expanding the knowledge pool of students and giving them practical exposure is one of our
+            top priorities along with many others like communication skills. We provide them with the proper tools,
+            guidance and support system which they need in their journey to climb the staircase of success. Our mentors
+            along with the team are aimed at providing an environment that helps the students to become better each day.
+          </p>
+          <br>
+          <a href="#" class="btn-1">Join IEEE</a> &nbsp; <a href="#" class="btn-2">Contact Us</a>
+
+        </div>
+      </div>
+
+      <!-- NAVIGATE TO -->
+      <div class="footer1 navigation-footer">
+        <h2 class="blue">Navigate to</h3>
+
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/EventsPages/EventsMain.html">Events</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join">Join IEEE</a>
+            </li>
+
+          </ul>
+          <!-- <h2 class="blue">Other Links</h3>
+      <ul>
+        <li><a href="#">Upcoming-events</a></li>
+        <li><a href="#">Past Events</a></li>
+      </ul> -->
+          <br>
+          <div class="social">
+            <br>
+            <h2 class="blue">Our Pages</h2>
+
+            <a href="https://www.facebook.com/ieeegtbit"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/ieee-student-branch-at-gtbit/mycompany/"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ieeegtbit/"><i class="fab fa-instagram"></i></a>
+          </div>
+
+      </div>
+      <!-- FOOTER FORM -->
+      <div class="footer1 footer-form">
+        <h2 class="blue">Any Queries? Ask here</h2>
+        <form action="process.php" class="form-footer">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="tel" name="tel" placeholder="Contact Number">
+          <textarea name="msg" id="" cols="30" rows="10" placeholder="Query"></textarea>
+          <input class="btn-1" type="submit" value="Submit query" class="btn-1">
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="developer-footer">
+      <p> Website by <a href="#">IEEE GTBIT Web Developers Team</a> </p>
+    </div> -->
+
+    <div class="rights">
+      <div>
+        <p> Website by <a href="#">IEEE GTBIT Web Developers' Team</a> </p>
+        <hr style="margin: 10px 0;height: 1px;">
+        <p style="font-size: 13px;">IEEE GTBIT &copy; All Right Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- JAVA SCRIPT -->
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    // const navbar = document.getElementById('navbar');
+    // let scrolled = false;
+
+    // window.onscroll = function () {
+    //   if (window.pageYOffset > 680) {
+    //     navbar.classList.remove('top');
+    //     if (!scrolled) {
+    //       navbar.style.transform = 'translateY(-70px)';
+    //     }
+    //     setTimeout(function () {
+    //       navbar.style.transform = 'translateY(0)';
+    //       scrolled = true;
+    //     }, 200);
+    //   } else {
+    //     navbar.classList.add('top');
+    //     scrolled = false;
+    //   }
+    // };
+
+    // Smooth Scrolling
+    $('#navbar a, .btn-1, .btn-2, .btn-3').on('click', function (e) {
+      if (this.hash !== '') {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top - 100,
+          },
+          800
+        );
+      }
+    });
+  </script>
+</body>
+
+</html>

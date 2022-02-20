@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
+
+
+  <meta charset="UTF-8">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/e22d7ebee8.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/slider.css">
+  <link rel="stylesheet" href="../css/card2.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/lightbox.min.css">
+  
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="../css/mobile.css">
+  <link rel="stylesheet" href="../css/toggle-btn.css">
+
+  <title>DevDays 2022</title>
+</head>
+
+<body>
+  <div class="top-header">
+    <a href="/TeamPage/team.html">Our Team</a>
+     <a href="/Achievements.html">Achievements</a>
+  </div>
+  <!-- Navigation Bar For Phone -->
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a style="padding: 0; text-align: left;" href="#home" class="active"><img class="logopng"
+        style="width: 100px;padding: 0;" src="../img/iee-logo.png" alt=""></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About Us</a></li>
+
+      <li><a class="open" href="/EventsPages/EventsMain.html">Events</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join" target="blank">Join
+          IEEE</a></li>
+
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+    <a icon-ham href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars "></i>
+    </a>
+  </div>
+  <script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }</script>
+
+  <!-- Navigation bar for computer -->
+  <header class="top">
+    <div class="navbar top" id="navbar">
+      <!-- Navbar logo and name -->
+      <div class="logo">
+        <img src="../img/iee-logo.png" alt="">
+        <h3 class="logotext" id="logotext">IEEE GTBIT</h3>
+      </div>
+
+      <!-- Navbar Links -->
+      <nav>
+        <ul class="navbar-ul">
+          <li><a  href="/index.html"> Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+
+          <!-- EVENTS -->
+          <li class="dropdown list-events">
+            <a class="open" href="/EventsPages/EventsMain.html" class="dropbtn"> Events<i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-content">
+              <div class="flex-items ">
+                <div>
+                  <p>IEEE GTBIT 2021-22</p>
+                  <a href="/EventsPages/Event_01_Croudhacks.html">CrowdHacks</a>
+                  <a href="/EventsPages/Event_02_Arduiknow.html">ArduiKnow</a>
+                  <a href="/EventsPages/Event_03_Pcb_Workshop.html">PCB Workshop</a>
+                  <a href="/EventsPages/Event_04_Ieee_extreme.html">IEEExtreme</a>
+
+                </div>
+
+                <div>
+                  <p>WIE IEEE GTBIT</p>
+                  <a href="/EventsPages/Event_05_DevDays2022.html">DevDays 2022</a>
+                  <a href="/EventsPages/Event_06_BasicsOfCyberSecurity.html">Basics of Cybersecurity</a>
+                  <a href="/EventsPages/Event_07_Getting_started_with_wordpress.html">Getting started with Wordpress</a>
+                </div>
+
+                <div>
+                  <p>CS Chapter IEEE GTBIT</p>
+
+                  <a href="/EventsPages/Event_08_MustHaveSkills.html">Must-Have Skills for Placements</a>
+                  <a href="/EventsPages/Event_09_BasicsOfPython.html">Basics of Python</a>
+                  <a href="/EventsPages/Event_10_Roadmap_to_webdev.html">Roadmap to Web Development</a>
+
+                </div>
+
+              </div>
+
+            </div>
+            <!-- GALLERY -->
+          <li class="dropdown list-gallery">
+            <a href="/gallery.html" class="dropbtn">Gallery</a>
+            <!-- <div class="dropdown-content">
+              <div class="flex-items ">
+                <div>
+                  <a href="gallery.html">All Events</a>
+                  <a href="gallery.html">Our Execom</a>
+                </div>
+
+
+
+              </div>
+
+            </div> -->
+            <!-- <li><a href="./EventsPages/EventsMain.html">Events</a></li> -->
+          <li><a href="/contact.html">Contact Us</a></li>
+          <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+              target="blank">Join IEEE</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <ul class="sidebar">
+      <li class="sb-item facebook">
+        <a href="https://www.facebook.com/ieeegtbit/" class="sb-link">
+          <i class="fab fa-facebook-f" style="background-color: #4267B2;"></i>
+          <span class="sb-title">Facebook</span>
+        </a>
+      </li>
+  
+      <li class="sb-item email">
+        <a href="" class="sb-link">
+          <i class="far fa-envelope" style="background-color: #DB4437;"></i>
+          <span class="sb-title">Email</span>
+        </a>
+      </li>
+  
+      <li class="sb-item insta">
+        <a href="https://instagram.com/ieeegtbit?utm_medium=copy_link" class="sb-link">
+          <i class="fab fa-instagram"
+            style="background: linear-gradient(45deg,#405DE6,#5851DB,#833ab4,#c13584,#e1309c,#fd1d1d);"></i>
+          <span class="sb-title">Instagram</span>
+        </a>
+      </li>
+  
+      <li class="sb-item twitter">
+        <a href="https://twitter.com/IEEEGTBIT?t=xX2-rhwhPJLh3oa3kpPnOw&s=08" class="sb-link">
+          <i class="fab fa-twitter" style="background-color:#00acee;"></i>
+          <span class="sb-title">Twitter</span>
+        </a>
+      </li>
+  
+  
+      <li class="sb-item whatsapp">
+        <a href="" class="sb-link">
+          <i class="fab fa-whatsapp" style="background-color: #25D366;"></i>
+          <span class="sb-title">WhatsApp</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+
+
+
+
+<!-- GALLERY AND SIDE COLUMN -->
+  <section class="container2 event-gallery-slider">
+    
+   <!-- HEADING -->
+  <div class="event-header" >
+    <h1>DevDays 2022</h1>
+    <p><span class="event-header-block">24th January 2022 </span> &nbsp;<span class="event-header-block">11:00 PM </span></p>
+  </div>
+
+
+    <div class="flex-items">
+
+    <!-- EVENT GALLERY -->
+      <div class="image-slide-show-gallery">
+        <body style="padding:0px; margin:0px; background-color:#fff;font-family:arial,helvetica,sans-serif,verdana,'Open Sans'">
+      
+          <!-- #region Jssor Slider Begin -->
+          <!-- Generator: Jssor Slider Composer -->
+          <!-- Source: https://www.jssor.com/demos/image-gallery.slider/=edit -->
+          <script src="../js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+          <script type="text/javascript">
+              window.jssor_1_slider_init = function() {
+      
+                  var jssor_1_SlideshowTransitions = [
+                    {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                    {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+                  ];
+      
+                  var jssor_1_options = {
+                    $AutoPlay: 1,
+                    $SlideshowOptions: {
+                      $Class: $JssorSlideshowRunner$,
+                      $Transitions: jssor_1_SlideshowTransitions,
+                      $TransitionsOrder: 1
+                    },
+                    $ArrowNavigatorOptions: {
+                      $Class: $JssorArrowNavigator$
+                    },
+                    $ThumbnailNavigatorOptions: {
+                      $Class: $JssorThumbnailNavigator$,
+                      $SpacingX: 5,
+                      $SpacingY: 5
+                    }
+                  };
+      
+                  var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+      
+                  /*#region responsive code begin*/
+      
+                  var MAX_WIDTH = 980;
+      
+                  function ScaleSlider() {
+                      var containerElement = jssor_1_slider.$Elmt.parentNode;
+                      var containerWidth = containerElement.clientWidth;
+      
+                      if (containerWidth) {
+      
+                          var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+      
+                          jssor_1_slider.$ScaleWidth(expectedWidth);
+                      }
+                      else {
+                          window.setTimeout(ScaleSlider, 30);
+                      }
+                  }
+      
+                  ScaleSlider();
+      
+                  $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                  $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                  $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                  /*#endregion responsive code end*/
+              };
+          </script>
+          <style>
+              /*jssor slider loading skin spin css*/
+              .jssorl-009-spin img {
+                  animation-name: jssorl-009-spin;
+                  animation-duration: 1.6s;
+                  animation-iteration-count: infinite;
+                  animation-timing-function: linear;
+              }
+      
+              @keyframes jssorl-009-spin {
+                  from { transform: rotate(0deg); }
+                  to { transform: rotate(360deg); }
+              }
+      
+              /*jssor slider arrow skin 106 css*/
+              .jssora106 {display:block;position:absolute;cursor:pointer;}
+              .jssora106 .c {fill:#fff;opacity:.3;}
+              .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+              .jssora106:hover .c {opacity:.5;}
+              .jssora106:hover .a {opacity:.8;}
+              .jssora106.jssora106dn .c {opacity:.2;}
+              .jssora106.jssora106dn .a {opacity:1;}
+              .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+      
+              /*jssor slider thumbnail skin 101 css*/
+              .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+              .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+              .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+              .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+              .jssort101 .p:hover{padding:2px;}
+              .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+              .jssort101 .p:hover.pdn{padding:0;}
+              .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+              .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+              .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+              .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+              .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+          </style>
+          <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:550px;overflow:hidden;visibility:hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                  <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+              </div>
+              <div class="event-gallery-img" data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:500px;overflow:hidden;">
+                <!-- ADD EVENT IMAGES HERE -->
+                  <div>
+                      <img data-u="image" src="../img/Event pics for gallery/Crowdhacks/final ss.jpg" />
+                      <img data-u="thumb" src="../img/Event pics for gallery/Crowdhacks/final ss.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase4.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase4.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase5.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase5.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase6.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase6.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase7.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase7.jpg" />
+                  </div>
+              
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase3.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase3.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase4.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase4.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase5.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase5.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase6.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase6.jpg" />
+                  </div>
+                  <div>
+                      <img data-u="image" src="../img/HomePage/showcase7.jpg" />
+                      <img data-u="thumb" src="../img/HomePage/showcase7.jpg" />
+                  </div>
+              
+              </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web animation</a>
+              <!-- Thumbnail Navigator -->
+              <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+                  <div data-u="slides">
+                      <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                          <div data-u="thumbnailtemplate" class="t"></div>
+                          <svg viewbox="0 0 16000 16000" class="cv">
+                              <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                              <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                              <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+              <!-- Arrow Navigator -->
+              <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+                  <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                      <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                      <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                      <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+                  </svg>
+              </div>
+              <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+                  <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                      <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                      <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                      <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+                  </svg>
+              </div>
+          </div>
+          <script type="text/javascript">jssor_1_slider_init();
+          </script>
+          <!-- #endregion Jssor Slider End -->
+        </body>
+      </div>
+
+    <!-- EVENT SIDE CONTENT -->
+      <div class="image-slide-show-content">
+     <div class="event-side-box">
+       <h3><i class="fas fa-thumbtack"></i> Event Highlights</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro delectus laborum iure error, optio officiis distinctio hic alias magnam in, excepturi repellendus rem assumenda perferendis! Maxime placeat mollitia iste molestias. Unde nisi, qui iure aut possimus sunt ratione necessitatibus aliquid.</p>
+     </div>
+     <div class="event-side-box">
+       <h3><i class="fas fa-microphone"></i> Speaker</h3>
+    <p>Jasmehar Singh <a href="#"><i class="fab fa-linkedin"></i></a></p>
+     </div>
+       
+      </div>
+  </section>
+  <section class="event-content container2">
+    <p><span class="color-event-name">IEEE NCU SB</span>  in collaboration with IEEE GTBIT SB conducted a LIVE WEBINAR for the very first time on the
+      topic Problem Solving Strategies for competitive Coding. The Guest Speaker of the webinar is Mr. Sumit Kumar
+      (Assistant Professor, CSE department NCU.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum qui ea ipsam minus, beatae natus recusandae assumenda adipisci sit facere quaerat impedit distinctio facilis quia aut ducimus nisi explicabo. Aperiam sapiente eveniet adipisci deserunt quam praesentium animi ratione perspiciatis ducimus?
+    </p>
+  </section>
+<br>
+
+
+
+ 
+
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="footer">
+      <div class="footer1">
+        <div class="footer1-content">
+          <div>
+            <img src="../img/iee-logo.png" alt="">
+          </div>
+          <div>
+            <h1>IEEE GTBIT</h1>
+          </div>
+        </div>
+        <div>
+          <p>The goal of IEEE GTBIT SB is to transform students into polished working professionals that are
+            industry-tailored. Expanding the knowledge pool of students and giving them practical exposure is one of our
+            top priorities along with many others like communication skills. We provide them with the proper tools,
+            guidance and support system which they need in their journey to climb the staircase of success. Our mentors
+            along with the team are aimed at providing an environment that helps the students to become better each day.
+          </p>
+          <br>
+          <a href="#" class="btn-1">Join IEEE</a> &nbsp; <a href="#" class="btn-2">Contact Us</a>
+
+        </div>
+      </div>
+
+      <!-- NAVIGATE TO -->
+      <div class="footer1 navigation-footer">
+        <h2 class="blue">Navigate to</h3>
+
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/EventsPages/EventsMain.html">Events</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a class="join" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join">Join IEEE</a>
+            </li>
+
+          </ul>
+          <!-- <h2 class="blue">Other Links</h3>
+      <ul>
+        <li><a href="#">Upcoming-events</a></li>
+        <li><a href="#">Past Events</a></li>
+      </ul> -->
+          <br>
+          <div class="social">
+            <br>
+            <h2 class="blue">Our Pages</h2>
+
+            <a href="https://www.facebook.com/ieeegtbit"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/ieee-student-branch-at-gtbit/mycompany/"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ieeegtbit/"><i class="fab fa-instagram"></i></a>
+          </div>
+
+      </div>
+      <!-- FOOTER FORM -->
+      <div class="footer1 footer-form">
+        <h2 class="blue">Any Queries? Ask here</h2>
+        <form action="process.php" class="form-footer">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="tel" name="tel" placeholder="Contact Number">
+          <textarea name="msg" id="" cols="30" rows="10" placeholder="Query"></textarea>
+          <input class="btn-1" type="submit" value="Submit query" class="btn-1">
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="developer-footer">
+      <p> Website by <a href="#">IEEE GTBIT Web Developers Team</a> </p>
+    </div> -->
+
+    <div class="rights">
+      <div>
+        <p> Website by <a href="#">IEEE GTBIT Web Developers' Team</a> </p>
+        <hr style="margin: 10px 0;height: 1px;">
+        <p style="font-size: 13px;">IEEE GTBIT &copy; All Right Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- JAVA SCRIPT -->
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    // const navbar = document.getElementById('navbar');
+    // let scrolled = false;
+
+    // window.onscroll = function () {
+    //   if (window.pageYOffset > 680) {
+    //     navbar.classList.remove('top');
+    //     if (!scrolled) {
+    //       navbar.style.transform = 'translateY(-70px)';
+    //     }
+    //     setTimeout(function () {
+    //       navbar.style.transform = 'translateY(0)';
+    //       scrolled = true;
+    //     }, 200);
+    //   } else {
+    //     navbar.classList.add('top');
+    //     scrolled = false;
+    //   }
+    // };
+
+    // Smooth Scrolling
+    $('#navbar a, .btn-1, .btn-2, .btn-3').on('click', function (e) {
+      if (this.hash !== '') {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top - 100,
+          },
+          800
+        );
+      }
+    });
+  </script>
+</body>
+
+</html>

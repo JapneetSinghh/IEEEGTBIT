@@ -1,0 +1,304 @@
+:root {
+  --max-width: 1100px;
+  --primary-color: #06578d;
+  --secondry-color: rgb(232, 168, 10);
+  --tertiary-color: rgb(239, 239, 250);
+  --color-1: rgb(190, 15, 111);
+  --color-2: #06578d;
+  --color-3: #1e699b;
+}
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6),
+.tabset > input:nth-child(13):checked ~ .tab-panels > .tab-panel:nth-child(7),
+.tabset > input:nth-child(15):checked ~ .tab-panels > .tab-panel:nth-child(8),
+.tabset > input:nth-child(17):checked ~ .tab-panels > .tab-panel:nth-child(9) {
+  display: block;
+}
+
+
+/* About Panel */
+
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+ 
+
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+color: var(--color-2);
+
+  
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: var(--color-2);
+}
+
+.tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+.tab-panel h2{
+color: var(--color-1);
+margin-bottom: 5px;
+}
+.flex-content-tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-content-tab-block-1{
+ width: 65%;
+ text-align: justify;
+ padding: 15px;
+}
+.flex-content-tab-block-2 {
+ width: 35%;
+ text-align: center;
+ position: relative;
+}
+.flex-content-tab-block-2 img{
+  width: 90%;
+}
+.section-8-header h3{
+  text-align: center;
+  color: white;
+
+}
+/* LEVEL 1 COLORS */
+.section-8-header{
+  background-color: var(--color-2);
+  padding: 20px;
+}
+.tabset > label:hover,
+.tabset > input:focus + label {
+color: var(--color-1);
+  
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: var(--color-1);
+}
+.tab-panel h2{
+  color: var(--color-2);
+  margin-bottom: 10px;
+  padding: 10px 0;
+  
+  }
+
+.container-program {
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 20px;
+}
+.team-page-tab{
+background-color: white;
+margin: auto;
+}
+.team-page-tab .tabset>label{
+  font-size: 18px;
+  color: var(--color-2);
+}
+.team-page-tab .tabset>label:hover{
+  color: rgb(139, 139, 139);
+}
+.card-list-team-page {
+  display: flex;
+  padding: 3rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+@media screen and (min-width: 780px) {
+  .card-list-team-page {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.card-list-team-page::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.card-list-team-page::-webkit-scrollbar-thumb {
+  background: #1c2929;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-list-team-page::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+.team-page-card {
+  height: 400px;
+  width: 290px;
+  min-width: 280px;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 16px;
+  background: white;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}
+
+.team-page-card:focus-within ~ .team-page-card,
+.team-page-card:hover ~ .team-page-card {
+  transform: translateX(10px);
+}
+
+.team-page-card:hover {
+  transform: translateY(-1rem);
+}
+
+.team-page-card:not(:first-child) {
+  margin-left: -10px;
+}
+/* CARD CONTENT CSS */
+
+
+.team-page-position p{
+  font-size: 18px;
+  color: var(--color-2);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+}
+.team-page-member-img{
+  text-align: center;
+ padding: 0;
+}
+.team-page-member-img img{
+border-radius:50% ;
+height: 140px;
+width: 140px;
+border: 3px solid var(--color-2);
+
+
+
+}
+.flex-items-team-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member-name-team-page{
+  margin-left:25px ;
+  cursor: pointer;
+}
+.member-name-team-page-prefix{
+  color: var(--color-3);
+  padding: 0;
+  margin: 0;
+  line-height: 10px;
+  margin-top: 6px;
+}
+.member-name-team-page-suffix{
+  font-size: 20px;
+  color: #333;
+}
+.linked-in-icon a{
+  color: var(--color-3);
+}
+.tags {
+  flex: 1;
+  margin: 1rem 0 ;
+  padding: 5px;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+.tags a{
+  border: 3px solid ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.5rem;
+  color: #7a7a8c;
+  line-height: 5px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
+}
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  color: #7a7a8c;
+  text-transform: uppercase;
+  font-size: 0.4rem;
+  border: 3px solid #7a7a8c;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
+}
+
+.tags a:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  background-clip: text;
+  border-color: rgb(117, 77, 77);
+} 
+.team-page-header{
+  text-align: center;
+  color: var(--color-2);
+  font-size: 25px;
+  padding: 20px;
+}

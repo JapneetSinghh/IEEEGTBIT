@@ -1,0 +1,226 @@
+:root{
+  --max-width:1100px;
+  --primary-color:#06578d;
+  --secondry-color:rgb(232, 168, 10);
+  --tertiary-color:rgb(243, 243, 235);
+
+}
+/* Navigation Bar */
+.navbar{
+  flex-direction: column;
+  height: 180px;
+}
+.navbar ul{
+  padding-bottom:25px ;
+}
+/* HAMBURGER MENU */
+.topnav{
+  display: block;
+}
+.top{
+  display: none;
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: var(--primary-color);
+  /* position: fixed; */
+  z-index: 4;
+  width: 100%;
+  border-bottom: rgba(102, 102, 245, 0.226) 1px solid ;
+ transition: 0.6s ease-in; 
+
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+ 
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: white;
+ text-align: center;
+ 
+}
+
+.topnav li {
+  list-style: none;
+  text-align: center;
+
+}
+.topnav li a:hover{
+ background-color: white;
+ color: var(--primary-color);
+ border-top:1px solid var(--primary-color) ;
+ transition: 0.6s ease-in;
+
+ 
+}
+/* Style the hamburger menu */
+
+.topnav a.icon {
+  background: var(--primary-color);
+  display: block;
+  position: absolute;
+  right: 19px;
+  top: 58px;
+  width: 55px;
+  transition: 0.6s ease-in; 
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffffff;
+  color: white;
+}
+/* NOTICES */
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 1rem;
+  
+}
+/* ABOUT IEEE */
+.about{
+  flex-direction: column;
+}
+.about-content{
+  width: 100%;
+}
+.about-image{
+  width: 100%;
+  padding: 40px 0;
+}
+.flex-grid .column{
+  flex: 100%;
+  max-width: 100%;
+}
+.hidden{
+  display: none;
+}
+/* mentor */
+.mentor-content{
+  flex-direction: column;
+}
+.about-mentor{
+  padding: 20px 30px;
+  width: 100%;
+}
+.about-mentor h1,.about-mentor h3{
+  text-align: center;
+}
+.mentor-img img{
+  width: 200px;
+}
+/* team */
+.team{
+  flex-direction: column;
+}
+.card{
+  width: 100%;
+  height: 450px;
+}
+
+.cards{
+  width: 100%;
+}
+/* Chapters */
+.chapter-content{
+  flex-direction: column;
+ height: 750px;
+
+}
+.chapter-about{
+width: 100%;
+}
+.chapter-img{
+  width: 100%;
+}
+/* Upcoming Event */
+.upcoming-event{
+  flex-direction: column;
+}
+.showcase-3{
+  height: 900px;
+}
+/* Form */
+.footer{
+  flex-direction: column;
+}
+.footer1{
+  width: 100%;
+}
+.team>div img{
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+/* Events */
+.event-content{
+  flex-direction: column;
+}
+.event-content>div{
+  width: 100%;
+}
+/* Contact Page */
+.addgrid{
+  grid-template-columns: repeat(1,1fr);
+  grid-gap:1rem;
+
+}
+.contact-box{
+  margin: 0;
+}
+#form{
+  margin: 10px 0;
+grid-template-columns: repeat(1,1fr);
+
+}
+.event-gallery-slider .flex-items{
+  flex-direction: column;
+}
+.image-slide-show-gallery{
+  width: 90%;
+  margin: auto;
+}
+.image-slide-show-content{
+  width: 90%;
+padding: 20px;
+margin: auto;
+}
+.event-header{
+  padding:10px 25px;
+}
+.event-content{
+  padding:10px 25px;
+
+}
+.flex-items{
+  flex-direction: column;
+}
+
+
+.Achievements-cards-content{
+  padding:  45px;
+  margin: 0px;
+  width: 100%;
+
+}
+
+
+.Achievements-cards-image{
+  padding:  25px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+.chapter-img1,.chapter-img2,.chapter-img3{
+  width: 100%;
+}
+
