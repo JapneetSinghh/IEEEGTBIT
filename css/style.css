@@ -191,9 +191,9 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #eff2fdf5;
+  background-color: #ebeef8f5;
   /* min-width: 40%; */
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.329);
   z-index: 1;
   margin-top: 8px;
   font-size: 14px;
@@ -202,7 +202,7 @@ h3 {
 
 /* POSITIONING OF DROPDOWN BOX */
 .list-events .dropdown-content {
-  left: 45%;
+  left: 25%;
 }
 .list-gallery .dropdown-content {
   left: 68%;
@@ -451,7 +451,8 @@ h3 {
 }
 .showcase-2::before {
   content: "";
-  background: url(../img/HomePage/GalleryPageHeader.jpg) no-repeat center center/cover;
+  background: url(../img/HomePage/GalleryPageHeader.jpg) no-repeat center
+    center/cover;
   top: 0;
   left: 0;
   height: 100%;
@@ -547,10 +548,9 @@ h3 {
   padding: 40px;
 }
 
-
 .blocks .our-mission {
   background-color: rgb(188, 220, 228);
-  
+
   padding: 35px 25px;
 }
 .blocks .our-mission p {
@@ -572,7 +572,6 @@ h3 {
   padding: 30px 20px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.438) 0px 5px 15px;
-
 }
 .mentor-content {
   display: flex;
@@ -642,7 +641,6 @@ h3 {
 
 /* IEEE GTBIT CHAPTERS */
 
-
 .chapters .section-header {
   background-color: black;
 }
@@ -660,31 +658,29 @@ h3 {
   text-align: center;
 }
 
-.chapter-img img{
+.chapter-img img {
   width: 100%;
   background: url(../img/HomePage/women.jpg) no-repeat center center/cover;
 }
 
-.chapter-img1{
+.chapter-img1 {
   width: 50%;
   background: url(../img/HomePage/women.jpg) no-repeat center center/cover;
   height: 100%;
 }
-.chapter-img2{
+.chapter-img2 {
   width: 50%;
-  background: url(../img/HomePage/ComputerScienceChap.jpg) no-repeat center center/cover;
+  background: url(../img/HomePage/ComputerScienceChap.jpg) no-repeat center
+    center/cover;
   height: 100%;
   object-fit: cover;
 }
-.chapter-img3{
+.chapter-img3 {
   width: 50%;
-  background: url(../img/HomePage/hackgtbitchap.jpg) no-repeat center center/cover;
+  background: url(../img/HomePage/hackgtbitchap.jpg) no-repeat center
+    center/cover;
   height: 100%;
 }
-
-
-
-
 
 /* SHOWCASE 3 */
 .showcase-3 {
@@ -1053,10 +1049,6 @@ h3 {
   object-fit: cover;
 }
 
-
-
-
-
 /* -------------------- */
 /* Contact Page */
 /* -------------------- */
@@ -1071,7 +1063,8 @@ h3 {
 }
 .showcase-6::before {
   content: "";
-  background: url(../img/HomePage/ContactUsHeader.jpg) no-repeat center center/cover;
+  background: url(../img/HomePage/ContactUsHeader.jpg) no-repeat center
+    center/cover;
   top: 0;
   left: 0;
   height: 100%;
@@ -1156,10 +1149,9 @@ h3 {
 }
 #form .btn-1:hover {
   color: var(--primary-color);
-} */ 
+} */
 /* -------------------- */
 /* SIDEBAR CSS*/
-
 
 /* ------ Team Page Styling ------ */
 .teamNav,
@@ -1321,6 +1313,9 @@ h3 {
 .event-nav-card > div:hover .over {
   opacity: 0.8;
 }
+.event-nav-card > div:hover .under {
+  opacity: 0;
+}
 .over {
   color: white;
   top: 0;
@@ -1334,14 +1329,33 @@ h3 {
   justify-content: center;
   background-color: black;
   opacity: 0;
+  font-family: sans-serif;
 }
-
+.under {
+  color: var(--color-2);
+  top: 0;
+  left: 0;
+  font-weight: 800;
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+  background-color: black;
+  opacity: 0.6;
+  font-family: sans-serif;
+}
+.danda {
+  width: 5px;
+  height: 1.5em;
+  background-color: var(--color-1);
+  margin-right: 0.3rem;
+}
 /*------ Contact Us Form */
 .contact-block {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-   
-  
 }
 .contact-block h2 {
   font-family: "Poppins", sans-serif, "arial";
@@ -1385,7 +1399,7 @@ textarea:valid ~ label {
   }
   .flex-items {
     flex-direction: column;
-  } 
+  }
 }
 
 .styled-input label {
@@ -1402,7 +1416,6 @@ textarea:valid ~ label {
 .styled-input.wide {
   width: 100%;
   max-width: 100%;
- 
 }
 
 .contact-left input,
@@ -1434,7 +1447,6 @@ input:focus ~ span,
   min-height: 4rem;
 }
 
-
 .contact-left {
   width: 65%;
   background-color: rgb(255, 255, 255);
@@ -1442,25 +1454,26 @@ input:focus ~ span,
   height: 100%;
   /* border-top-left-radius: 50px;
   border-bottom-left-radius: 50px; */
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.199), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
- 
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.199),
+    0 2px 10px 0 rgba(0, 0, 0, 0.07);
 }
 .contact-right {
- width:  35%;
- /* background: url(../img/contact-iee-gtbit.jpg) no-repeat center center/cover; */
- background-color: #06578d;
- padding: 20px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-self: center;
- border-top-right-radius: 80px;
+  width: 35%;
+  /* background: url(../img/contact-iee-gtbit.jpg) no-repeat center center/cover; */
+  background-color: #06578d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
 }
-.contact-left,.contact-right{
+.contact-left,
+.contact-right {
   height: 90vh;
 }
-.contact-right .icon-form-content{
+.contact-right .icon-form-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1473,18 +1486,16 @@ input:focus ~ span,
   border-bottom: 1px solid rgba(255, 255, 255, 0.418);
   width: 100%;
 }
-.contact-right .icon-form-content h3{
- font-size: 42px;
- padding: 25px;
- /* border: 2px solid white;
+.contact-right .icon-form-content h3 {
+  font-size: 42px;
+  padding: 25px;
+  /* border: 2px solid white;
  border-radius: 50%; */
- color: white;
-}
-.contact-right .icon-form-content a{
   color: white;
 }
-
-
+.contact-right .icon-form-content a {
+  color: white;
+}
 
 .input-container {
   max-width: 100%;
@@ -1493,7 +1504,6 @@ input:focus ~ span,
 }
 
 .submit-btn {
-  
   padding: 7px 30px;
   border-radius: 3px;
   display: inline-block;
@@ -1512,20 +1522,20 @@ input:focus ~ span,
   background-color: var(--color-2);
   color: #fff;
 }
-.contact-form-btn{
+.contact-form-btn {
   margin: auto;
   text-align: center;
 }
 
 /* Sidebar Styling */
-#sidebar{
+#sidebar {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#sidebar{
+#sidebar {
   position: fixed;
   top: 50%;
   right: 0;
@@ -1534,18 +1544,18 @@ input:focus ~ span,
   background-color: #414141;
 }
 
-.sidebar .sb-item{
+.sidebar .sb-item {
   position: relative;
   list-style-type: none;
 }
 
-.sidebar .sb-link{
+.sidebar .sb-link {
   text-decoration: none;
   font-size: 16px;
   color: #fff;
 }
 
-.sidebar .sb-link i{
+.sidebar .sb-link i {
   width: 50px;
   height: 50px;
   display: inline-flex;
@@ -1555,11 +1565,11 @@ input:focus ~ span,
   background-color: #414141;
 }
 
-.sidebar .sb-item:hover i{
+.sidebar .sb-item:hover i {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
-.sidebar .sb-item .sb-title{
+.sidebar .sb-item .sb-title {
   position: absolute;
   height: 100%;
   background-color: #414141;
@@ -1570,9 +1580,9 @@ input:focus ~ span,
   z-index: -1;
 }
 
-.sidebar .sb-item:hover .sb-title{
+.sidebar .sb-item:hover .sb-title {
   transform: translateX(-100%);
-} 
+}
 
 @media (max-width: 768px) {
   .submit-btn {
@@ -1586,19 +1596,19 @@ input:focus ~ span,
   }
   .contact-left {
     width: 100%;
-    border-radius:0px ;
+    border-radius: 0px;
   }
   .contact-right {
     width: 100%;
-    border-radius:0px ;
+    border-radius: 0px;
   }
-  .contact-left,.contact-right{
+  .contact-left,
+  .contact-right {
     height: auto;
   }
 
- 
-
-  .contact-left input,.contact-left textarea{
+  .contact-left input,
+  .contact-left textarea {
     margin: 10px 0;
   }
 }
@@ -1631,15 +1641,12 @@ input[type="checkbox"]:checked + label {
 /*
  CSS for the main interaction
 */
-.event-nav-card>div{
+.event-nav-card > div {
   background-color: #000;
 }
-.event-nav-card>div img{
+.event-nav-card > div img {
   opacity: 0.7;
 }
-
-
-
 
 /* -------------------- */
 /* Media Qyueries DO NOT TOUCH */
@@ -1714,4 +1721,27 @@ input[type="checkbox"]:checked + label {
   .rights {
     text-align: center;
   }
+}
+.bold {
+  font-weight: bold;
+}
+/* Showcase 8 */
+.showcase-8 {
+  background: rgb(0, 0, 0);
+  position: relative;
+  color: white;
+  object-fit: cover;
+  height: 400px;
+}
+.showcase-8::before {
+  content: "";
+  background: url(../img/HomePage/Achievements.jpg) no-repeat center
+    center/cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background-attachment: fixed;
+  position: absolute;
 }
